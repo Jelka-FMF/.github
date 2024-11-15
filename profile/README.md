@@ -10,6 +10,8 @@ The tree will be located at the entrance of the building at [Jadranska 21](https
 
 TODO: More about the project
 
+The main project website is available at [jelka.fmf.uni-lj.si](https://jelka.fmf.uni-lj.si/), and the visual pattern editor is available at [jelkly.fmf.uni-lj.si](https://jelkly.fmf.uni-lj.si/).
+
 ## Contributing
 
 If you would like to contribute your own pattern for running on Jelka FMF and already have programming knowledge, please check out the [Storži](https://github.com/Jelka-FMF/Storzi) repository that contains already-existing patterns and instructions for submitting your own patterns.
@@ -24,11 +26,11 @@ If you would like to submit a pattern but do not have programming knowledge yet,
 - **[Korenine](https://github.com/Jelka-FMF/Korenine)** - Python system for running patterns on the Jelka FMF hardware
 - **[Storži](https://github.com/Jelka-FMF/Storzi)** - Repository of patterns running on Jelka FMF
 
-## Utilities
+### Utilities
 
 - **[Jelkly](https://github.com/Jelka-FMF/Jelkly)** - Blockly editor for creating and editing Jelka FMF patterns 
 
-## Libraries
+### Libraries
 
 - JelkaPy
 - JelkaJS
