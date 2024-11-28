@@ -16,7 +16,7 @@ The main project website is available at [jelka.fmf.uni-lj.si](https://jelka.fmf
 
 If you would like to contribute your own pattern for running on Jelka FMF and already have programming knowledge, please check out the [Storži](https://github.com/Jelka-FMF/Storzi) repository that contains already-existing patterns and instructions for submitting your own patterns.
 
-If you would like to submit a pattern but do not have programming knowledge yet, you can check out [Jelkly](https://jelkly.fmf.uni-lj.si/docs), a Scratch-like visual programming tool for creating your own Jelka FMF patterns (WIP).
+If you would like to submit a pattern but do not have programming knowledge yet, you can check out [Jelkly](https://jelkly.fmf.uni-lj.si/docs), a Scratch-like visual programming tool for creating and submitting your own Jelka FMF patterns.
 
 ## Organization
 
@@ -28,9 +28,10 @@ If you would like to submit a pattern but do not have programming knowledge yet,
 
 ### Utilities
 
-- **[Jelkly](https://github.com/Jelka-FMF/Jelkly)** - Blockly editor for creating and editing Jelka FMF patterns 
+- **[Jelkly](https://github.com/Jelka-FMF/Jelkly)** - Blockly editor for creating and editing Jelka FMF patterns
+- **[JelkaSim](https://github.com/Jelka-FMF/JelkaSim)** - Simulation for running Jelka FMF patterns
 
 ### Libraries
 
-- JelkaPy
-- JelkaJS
+- **[JelkaPy](https://github.com/Jelka-FMF/JelkaPy)** - Python API
+- **[JelkaJS](https://github.com/Jelka-FMF/JelkaJS)** - JavaScript API
