@@ -78,6 +78,7 @@ programming knowledge, as it allows you to easily build programs using visual bl
 ### Utilities
 
 - **[Jelkly](https://github.com/Jelka-FMF/Jelkly)** - Blockly editor for creating and editing Jelka FMF patterns
+- **[Jelkonda](https://github.com/Jelka-FMF/Jelkonda)** - A browser based development enviroment for reating and editing Jelka FMF patterns using Python
 - **[JelkaSim](https://github.com/Jelka-FMF/JelkaSim)** - Simulation for running Jelka FMF patterns
 - **[Jelkulator](https://github.com/Jelka-FMF/Jelkulator)** - Jupyter notebook for calculating light coordinates 
 
