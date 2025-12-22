@@ -72,7 +72,7 @@ programming knowledge, as it allows you to easily build programs using visual bl
 ### Core
 
 - **[Jelkob](https://github.com/Jelka-FMF/Jelkob)** - Main website for accessing and managing Jelka FMF
-- **[Korenine](https://github.com/Jelka-FMF/Korenine)** - Python system for running patterns on the Jelka FMF hardware
+- **[Korenine](https://github.com/Jelka-FMF/Korenine)** - Rust system for running patterns on the Jelka FMF hardware
 - **[Storži](https://github.com/Jelka-FMF/Storzi)** - Repository of patterns running on Jelka FMF
 
 ### Utilities
