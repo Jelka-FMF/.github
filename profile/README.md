@@ -5,8 +5,8 @@ Programmable Christmas tree at the Faculty of Mathematics and Physics, Universit
 ## About
 
 At the [Faculty of Mathematics and Physics, University of Ljubljana](https://www.fmf.uni-lj.si/), as
-part of the [FMF Programming Club](https://progklub.si/), we set up a programmable
-Christmas tree. The project was made possible with the sponsorship of [Abelium](https://abelium.si/)
+part of the [FMF Programming Club](https://progklub.si/), we set up a programmable Christmas tree.
+The project was made possible with the sponsorship of [Abelium](https://abelium.si/)
 and [Acex](https://acex.si/).
 
 The tree is located at the entrance of the building at [Jadranska 21](https://www.google.si/maps/place/Jadranska+ulica+21,+1000+Ljubljana)
@@ -29,7 +29,7 @@ are containerized in the Docker container and can be written in any programming 
 to the standard output. The program reads the output of the pattern and controls the lights on the tree
 accordingly using a library. The current state of the tree is also sent back to the server through
 the [Veter](https://github.com/Jelka-FMF/Veter) service, which proxies the data so it can be displayed
-on the simulation on the main website.
+in the simulation on the main website.
 
 The main server, called [Jelkob](https://github.com/Jelka-FMF/Jelkob), hosts the project website, the
 pattern database, and the Docker registry. The website is written in Django and uses the Django REST
