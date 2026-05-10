@@ -5,7 +5,7 @@ Programmable Christmas tree at the Faculty of Mathematics and Physics, Universit
 ## About
 
 At the [Faculty of Mathematics and Physics, University of Ljubljana](https://www.fmf.uni-lj.si/), as
-part of the [FMF Programming Club](https://programerski-klub-fmf.github.io/), we set up a programmable
+part of the [FMF Programming Club](https://progklub.si/), we set up a programmable
 Christmas tree. The project was made possible with the sponsorship of [Abelium](https://abelium.si/)
 and [Acex](https://acex.si/).
 
@@ -27,12 +27,13 @@ to get the list of patterns to run. This program is called [Korenine](https://gi
 It cycles through the available patterns and runs them one by one in a Docker container. The patterns
 are containerized in the Docker container and can be written in any programming language that can write
 to the standard output. The program reads the output of the pattern and controls the lights on the tree
-accordingly using a library. The current state of the tree is also sent back to the server, where it
-is displayed on the simulation on the website.
+accordingly using a library. The current state of the tree is also sent back to the server through
+the [Veter](https://github.com/Jelka-FMF/Veter) service, which proxies the data so it can be displayed
+on the simulation on the main website.
 
 The main server, called [Jelkob](https://github.com/Jelka-FMF/Jelkob), hosts the project website, the
 pattern database, and the Docker registry. The website is written in Django and uses the Django REST
-framework for the API. Using the website, we can control which patterns are running on the tree and
+Framework for the API. Using the website, we can control which patterns are running on the tree and
 manually run them. The website also shows a list of available patterns, the current state of the tree,
 and the live simulation.
 
@@ -63,7 +64,7 @@ already-existing patterns and instructions for submitting your own patterns in v
 languages.
 
 If you would like to submit a pattern but do not have programming knowledge yet, you can check out
-[Jelkly](https://jelkly.fmf.uni-lj.si/docs), a Scratch-like visual programming tool for creating and
+[Jelkly](https://jelkly.fmf.uni-lj.si/docs/), a Scratch-like visual programming tool for creating and
 submitting your own Jelka FMF patterns. It is easy to use even for beginners and people without
 programming knowledge, as it allows you to easily build programs using visual blocks. 
 
@@ -73,16 +74,25 @@ programming knowledge, as it allows you to easily build programs using visual bl
 
 - **[Jelkob](https://github.com/Jelka-FMF/Jelkob)** - Main website for accessing and managing Jelka FMF
 - **[Korenine](https://github.com/Jelka-FMF/Korenine)** - Rust system for running patterns on the Jelka FMF hardware
+- **[Veter](https://github.com/Jelka-FMF/Veter)** - Service for communication between Jelka FMF components
 - **[Storži](https://github.com/Jelka-FMF/Storzi)** - Repository of patterns running on Jelka FMF
+
+### Editors
+
+- **[Jelkly](https://github.com/Jelka-FMF/Jelkly)** - Blockly editor for creating and editing Jelka FMF patterns
+- **[Jelkonda](https://github.com/Jelka-FMF/Jelkonda)** - Browser-based Python IDE for development of Jelka FMF patterns
 
 ### Utilities
 
-- **[Jelkly](https://github.com/Jelka-FMF/Jelkly)** - Blockly editor for creating and editing Jelka FMF patterns
-- **[Jelkonda](https://github.com/Jelka-FMF/Jelkonda)** - A browser based development enviroment for reating and editing Jelka FMF patterns using Python
 - **[JelkaSim](https://github.com/Jelka-FMF/JelkaSim)** - Simulation for running Jelka FMF patterns
+- **[Validator](https://github.com/Jelka-FMF/Validator)** - Decoder for data stream sent to Jelka FMF simulation
 - **[Jelkulator](https://github.com/Jelka-FMF/Jelkulator)** - Jupyter notebook for calculating light coordinates 
 
 ### Libraries
 
 - **[JelkaPy](https://github.com/Jelka-FMF/JelkaPy)** - Python API for Jelka FMF patterns
 - **[JelkaJS](https://github.com/Jelka-FMF/JelkaJS)** - JavaScript API for Jelka FMF patterns
+
+### Fun
+
+- **[Jelcraft](https://github.com/Jelka-FMF/Jelcraft)** - Minecraft server for displaying Jelka FMF simulation
